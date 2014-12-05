@@ -20,7 +20,7 @@ console.log("Sparky got " + wholeSlices + " slices of pizza."); //log result
 
 //Shopping Bill
 var weeklyTotals = [90,71,83,52,106]; //declare and define weekly totals
-var totalSpent = 0; //declare and define totalSpent var with Int of 0 (to be calculated with fn below)
+var totalSpent = 0; //declare and define totalSpent var with an Int of 0 (to be calculated with fn below)
 weeklyTotals.forEach(function (element) { //for each element in the array, run function
     totalSpent += element; //add element to totalSpent var
 }); //end fn
