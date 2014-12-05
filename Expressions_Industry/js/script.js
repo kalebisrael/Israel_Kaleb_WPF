@@ -9,4 +9,6 @@ const kbToMb = 1024; //declare and define conversion value of KB to MB
 const mbToMB = 0.125; //declare and define conversion value of Mb to MB
 var seconds = fileSize * kbToMb / upSpeed * mbToMB; //seconds calculated before overhead
 seconds += seconds * overhead; //seconds after overhead
-console.log(seconds); //log result
+var minutes = Math.floor(seconds / 60); //add minutes
+seconds %= 60; //update seconds
+console.log(minutes + " " + seconds); //log result
