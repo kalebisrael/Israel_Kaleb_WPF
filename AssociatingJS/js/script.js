@@ -1,6 +1,13 @@
-// Expressions - Assignment Operators
+// Prompts and Alerts
 
-var a = 3;
-a += 4; // a = a + 4
-a ++; // a += 1 // a = a + 1
-console.log(a);
+//var yearBorn = prompt("Enter your year of birth OR ELSE!");
+//console.log(yearBorn);
+
+var width = prompt("Area of a Triangle Calculator \nPlease enter the width (ft)");
+var height = prompt("Please enter the height (ft)");
+
+var area = width * height/2; //calculation
+//console.log(area); //log area
+
+var result = "The area of your Triangle is " + area + " sq ft";
+alert(result);
