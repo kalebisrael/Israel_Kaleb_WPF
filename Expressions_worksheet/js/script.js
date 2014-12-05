@@ -16,4 +16,14 @@ console.log("Each person ate " + slicePerPerson + " slices of pizza at the party
 
 //Part II
 var wholeSlices = slicesTotal % people; //calculate left overs
-console.log("Sparky got " + wholeSlices + "slices of pizza."); //log result
+console.log("Sparky got " + wholeSlices + " slices of pizza."); //log result
+
+//Shopping Bill
+var weeklyTotals = [90,71,83,52,106]; //declare and define weekly totals
+var totalSpent = 0; //declare and define totalSpent var with Int of 0 (to be calculated with fn below)
+weeklyTotals.forEach(function (element) { //for each element in the array, run function
+    totalSpent += element; //add element to totalSpent var
+}); //end fn
+var averageSpent = totalSpent / weeklyTotals.length; //calculate average spent (total spent / amount of weeks)
+console.log("You have spent a total of $" + totalSpent + " on groceries over " + weeklyTotals.length + " weeks. That is an average of $" + averageSpent + " per week."); //log result
+
