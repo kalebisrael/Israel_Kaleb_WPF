@@ -1,9 +1,8 @@
 // Variables of Different Types, Numbers, Booleans and Strings
 
-var age = 23; // number
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; // 0,1,2,3
 
-var isStudent = true; // boolean
+console.log(muppetNames[0]); // logging first item in array
+muppetNames[4] = "Fozzy"; // adding new name to array
 
-var firstName = "Kaleb"; // string
-
-var phrase = 'I don\'t know \n You\'ll have to ask the teacher'; // escape character
+console.log("added" + muppetNames[4] + "to array"); // logging new item
