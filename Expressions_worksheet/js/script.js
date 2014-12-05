@@ -27,3 +27,11 @@ weeklyTotals.forEach(function (element) { //for each element in the array, run f
 var averageSpent = totalSpent / weeklyTotals.length; //calculate average spent (total spent / amount of weeks)
 console.log("You have spent a total of $" + totalSpent + " on groceries over " + weeklyTotals.length + " weeks. That is an average of $" + averageSpent + " per week."); //log result
 
+//Discount
+var descr = prompt("Calculate discount \nWhat is the item of interest?"); //prompt user for item info
+var original = prompt("What is the original price?"); //prompt user for original price
+var discountPercent = prompt("What is the discount percentage?"); //prompt user for discount percent
+var salesTax = prompt("What is the current sales tax percentage?"); //prompt user for current sales tax percent
+var priceNoTax = original * (1 - discountPercent/100); //calculate price without tax
+var priceTaxed = priceNoTax * (1 - salesTax/100); //calculate price with tax
+console.log("Your " + descr + " was originally $" + original + ", but after a " + discountPercent + "% discount, it is now $" + priceNoTax + " without tax, and $" + priceTaxed + " with tax."); //log result
