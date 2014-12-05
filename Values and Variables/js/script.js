@@ -1,7 +1,9 @@
-// JavaScript
+// Variables of Different Types, Numbers, Booleans and Strings
 
-var age; //declaration
-age = 23; //definition (don't use 'var' in definition)
-//storage container = value
+var age = 23; // number
 
-var yearOfBirth = 1991; //declaring and defining on the same line
+var isStudent = true; // boolean
+
+var firstName = "Kaleb"; // string
+
+var phrase = 'I don\'t know \n You\'ll have to ask the teacher'; // escape character
