@@ -5,4 +5,5 @@ var num = prompt("Dragon Egg Calculator \nHow many Dragons do you have now?", "1
 var age = prompt("What is the average age of your Dragons? (Years)", "120"); //prompt user for age input
 var time = prompt("How long will you farm? (Years)", "10"); //prompt user for years of investment
 var efficiency = 3.5 - (3.5 * age / 1000); //The youngest dragon will lay 3.5 per year, the older they get (up to 1000) the less they lay
-console.log(efficiency); //log result
+var total = num * efficiency * time; //total eggs
+console.log("With " + num + " dragons at the average age of " + age + " years old, you will have roughly " + total.toFixed(1) + " eggs after " + time + " years"); //log result
