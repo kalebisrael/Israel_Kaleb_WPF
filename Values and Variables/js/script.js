@@ -1,4 +1,4 @@
-// Variables of Different Types, Numbers, Booleans and Strings
+// arrays
 
 var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; // 0,1,2,3
 
