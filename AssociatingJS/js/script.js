@@ -1,7 +1,7 @@
-// Conditional Logic Concepts
+// Logic Concepts
 
-if(sunny){
+temp = 65;
+
+if(temp==75){
     goToTheBeach();
-} else {
-    goToTheMovies();
 }

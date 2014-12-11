@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b18333-ba3a-4d77-90e0-2427342b5319" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssociatingJS/index.html" afterPath="$PROJECT_DIR$/AssociatingJS/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssociatingJS/js/script.js" afterPath="$PROJECT_DIR$/AssociatingJS/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Personal/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Expressions_Personal/.idea/workspace.xml" />
     </list>
     <ignored path="Israel_Kaleb_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AssociatingJS/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18796992" vertical-offset="0" max-vertical-offset="399">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+              <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -264,8 +262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AssociatingJS/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18796992" vertical-offset="0" max-vertical-offset="399">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>
