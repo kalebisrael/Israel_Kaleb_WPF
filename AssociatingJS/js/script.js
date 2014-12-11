@@ -1,7 +1,11 @@
-// Logic Concepts
+// Nesting Conditionals
 
-temp = 65;
-
-if(temp==75){
+if(sunny){
     goToTheBeach();
+
+    if(warmWater){
+        wearNewSuit();
+    }
+}else{
+    goToTheMovies();
 }
