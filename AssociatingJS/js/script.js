@@ -27,3 +27,19 @@ if(usernamePrompt === userName && passwordPrompt === password){ //check username
     console.log("Password does not match our records"); //log incorrect password message
 } //end if
 
+//Movie Ticket
+var ticketPrice = 12; //ticket price
+var discountPrice = 7; //discount price
+var kidAge = 10; //10 or younger
+var seniorAge = 55; //55 or older
+var startTime = 15; //military start time
+var endTime = 17; //military end time
+var ageInput = Number(prompt("Going to see a movie?\nWhat is your age?")); //prompt age
+var timeInput = Number(prompt("What time is the movie? (Military)")); //prompt time
+var price = ticketPrice; //var for customers actual price
+if(ageInput <= kidAge || ageInput >= seniorAge){ //if eligible for age discount
+    price = discountPrice; //set price to discounted price
+} else if(timeInput >= startTime && timeInput <= endTime){
+    price = discountPrice; //set price to discounted price
+} //end if
+console.log("The ticket price is $"+price); //log result
