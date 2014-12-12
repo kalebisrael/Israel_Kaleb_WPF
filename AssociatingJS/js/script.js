@@ -13,3 +13,16 @@ if(tempType == "F" || tempType == "f"){ //if tempType is F
 } else { //else (not F or C)
     console.log("ERROR: F or C temp scale was not selected. Refresh page"); //check for error
 } //end if
+
+//Check login
+var userName = admin; //username is admin
+var password = password; //password is password
+var usernamePrompt = prompt("Username?"); //prompt for username
+var passwordPrompt = prompt("Password?"); //prompt for password
+if(usernamePrompt === userName && passwordPrompt === password){ //check username and password
+    console.log("Welcome, " + userName + "!"); //log welcome message
+} else if(usernamePrompt !=== userName){ //check if username is incorrect
+    console.log("User not found. Try again."); //log user not found message
+} else { //if username is correct
+    console.log("Password does not match our records"); //log incorrect password message
+} //end if
