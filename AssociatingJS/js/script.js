@@ -15,14 +15,15 @@ if(tempType == "F" || tempType == "f"){ //if tempType is F
 } //end if
 
 //Check login
-var userName = admin; //username is admin
-var password = password; //password is password
+var userName = "admin"; //username is admin
+var password = "password"; //password is password
 var usernamePrompt = prompt("Username?"); //prompt for username
 var passwordPrompt = prompt("Password?"); //prompt for password
 if(usernamePrompt === userName && passwordPrompt === password){ //check username and password
     console.log("Welcome, " + userName + "!"); //log welcome message
-} else if(usernamePrompt !=== userName){ //check if username is incorrect
+} else if(usernamePrompt !== userName){ //check if username is incorrect
     console.log("User not found. Try again."); //log user not found message
 } else { //if username is correct
     console.log("Password does not match our records"); //log incorrect password message
 } //end if
+
