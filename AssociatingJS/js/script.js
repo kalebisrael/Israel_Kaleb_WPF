@@ -1,9 +1,5 @@
-//Do While Loop
+//For Loop
 
-var c = 10;
-
-do{
-    console.log(c + " kegs on the wall");
-    c--;
+for (var i = 10; i > 0; i--){
+    console.log(i + " kegs on the wall");
 }
-while(c > 0);
