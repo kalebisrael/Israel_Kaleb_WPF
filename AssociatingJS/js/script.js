@@ -1,8 +1,9 @@
-//Loops
+//Do While Loop
 
-var b = 20;
+var c = 10;
 
-while (b > 0){
-    console.log(b + " kegs on the wall");
-    b--;
+do{
+    console.log(c + " kegs on the wall");
+    c--;
 }
+while(c > 0);
