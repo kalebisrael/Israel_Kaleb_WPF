@@ -8,7 +8,7 @@ while(amountNeeded==="" || isNaN(amountNeeded)){ //check input for blank or NaN
     if(amountNeeded===""){ //if blank
         amountNeeded=prompt("Please do not leave blank"); //prompt with specific error message about leaving blank
     }else{ //else if NaN
-        amountNeeded=prompt("Please only inset numbers"); //error message about NaN
+        amountNeeded=prompt("Please only insert numbers"); //error message about NaN
     } //end else
 } //end while
 
@@ -18,7 +18,7 @@ while(amountNow==="" || isNaN(amountNow)){ //check input for blank or NaN
     if(amountNow===""){ //if blank
         amountNow=prompt("Please do not leave blank"); //prompt with specific error message about leaving blank
     }else{ //else if NaN
-        amountNow=prompt("Please only inset numbers"); //error message about NaN
+        amountNow=prompt("Please only insert numbers"); //error message about NaN
     } //end else
 } //end while
 
@@ -28,7 +28,7 @@ while(amountAdded==="" || isNaN(amountAdded)){ //check input for blank or NaN
     if(amountAdded===""){ //if blank
         amountAdded=prompt("Please do not leave blank"); //prompt with specific error message about leaving blank
     }else{ //else if NaN
-        amountAdded=prompt("Please only inset numbers"); //error message about NaN
+        amountAdded=prompt("Please only insert numbers"); //error message about NaN
     } //end else
 } //end while
 
