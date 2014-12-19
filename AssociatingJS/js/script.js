@@ -1,16 +1,8 @@
-//Functions - Anonymous Functions
+//Loops
 
-//function
-//function calcArea(w, h){
-//    var area = w * h;
-//    return area;
-//}
+var b = 20;
 
-var calcArea = function(w, h){
-    var area = w * h;
-    return area;
+while (b > 0){
+    console.log(b + " kegs on the wall");
+    b--;
 }
-
-var a = calcArea(20, 30);
-
-console.log(a);
