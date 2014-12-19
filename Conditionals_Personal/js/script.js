@@ -7,7 +7,7 @@ const costPer = 0.7; //set bulk cost per flower
 var flowers = Math.floor(funds / costPer); //determine flowers
 var bouquets = Math.floor(flowers / perBouquet); //determine bouquets
 function currencyFormat (num) { //function named currencyFormat that will return num
-    return "$" + num.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ","); //return '$' string + num taken to two decimal places and given currency commas
+    return "$" + num.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ","); //return '$' string + num taken to two decimal places and adding currency commas
 } //end fn
 var result = "You currently have " + currencyFormat(funds) + " which will allow you to purchase " + flowers + " flowers at the bulk price of $0.70 per flower. Using " + perBouquet + " flowers per bouquet, you can make " + bouquets + " complete bouquets."; //result string
 console.log(result); //log result
