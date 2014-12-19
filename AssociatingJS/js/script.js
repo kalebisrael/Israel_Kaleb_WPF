@@ -1,13 +1,16 @@
-//Functions - Functions vs Procedures
+//Functions - Anonymous Functions
 
 //function
-function calcArea(w, h){
+//function calcArea(w, h){
+//    var area = w * h;
+//    return area;
+//}
+
+var calcArea = function(w, h){
     var area = w * h;
     return area;
 }
 
-//procedure
-function calcArea(w, h){
-    var area = w * h;
-    console.log(area);
-}
+var a = calcArea(20, 30);
+
+console.log(a);
